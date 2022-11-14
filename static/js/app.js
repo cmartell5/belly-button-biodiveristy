@@ -47,12 +47,12 @@ function init() {
     };
 
     function buildCharts(sample){
+        // Put the data into variables
+        // Filter the data using 'samples'
         d3.json('samples.json').then((data) => {
-            // Put the data into variables
-            // Filter the data using 'samples'
             let samples = data.samples;
             let resultsArray = samples.filter(sampleObj => sampleObj.id == sample);
-            // Get the first entry [0]
+            // Get the first entry [0] in array
             let result = resultsArray[0];
             let otu_ids = result.otu_ids;
             let otu_labels = result.otu_labels.slice(0,10).reverse();
@@ -74,9 +74,8 @@ function init() {
                 type: "bar", 
                 orientation: 'h',
                 marker: {
-                    color: 'blue'
-                }
-                
+                    color: 'blue',
+                }         
         };
 
         let traceData = [trace1];
@@ -97,8 +96,7 @@ function init() {
                 marker: {
                     size: bubble_values,
                     color: bubble_values,
-                    colorscale: 'rainbow',
-                    
+                    colorscale: 'rainbow',                    
                 }
             }];
 
