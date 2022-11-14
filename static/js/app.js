@@ -16,6 +16,7 @@ function init() {
             .text(sample)
             .property('value', sample);
         });
+
         var firstSample = sampleValues[0];
         buildCharts(firstSample);
         buildMetadata(firstSample);
@@ -81,7 +82,6 @@ function init() {
         let traceData = [trace1];
 
         Plotly.newPlot("bar", traceData)
-
             let layout = {
             title: "Belly Button Bacteria"
             };
