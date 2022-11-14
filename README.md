@@ -27,3 +27,5 @@ I will be building an interactive dashboard to explore the [Belly Button Biodive
 
 6. Update all the plots when a new sample is selected.
 7. Deploy app when completed.
+
+## Deployment page: http://127.0.0.1:5500/belly-button-challenge/index.html 
