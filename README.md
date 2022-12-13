@@ -1,4 +1,4 @@
-# belly-button-challenge
+# belly-button-project
 An interactive dashboard using HTML, JSON, and JavaScript
 
 # Background
