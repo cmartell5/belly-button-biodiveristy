@@ -1,5 +1,5 @@
 # belly-button-project
-An interactive dashboard using HTML, JSON, and JavaScript
+An interactive dashboard using HTML, JSON, D3 and JavaScript
 
 # Background
 I will be building an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) which catalogs the microbes that colonize human navels.
